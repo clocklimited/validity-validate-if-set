@@ -1,0 +1,36 @@
+{
+  "name": "validity-validate-if-set",
+  "version": "0.0.0",
+  "description": "Validity validator which calls a subsequent validator if a value is truthy",
+  "main": "validator.js",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/jshint .",
+    "pretest": "npm run-script lint",
+    "test": "./node_modules/.bin/_mocha -- -R spec test.js",
+    "prepublish": "npm test && npm prune"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:domharrington/validity-validate-if-set.git"
+  },
+  "keywords": [
+    "validity",
+    "truthy",
+    "validator",
+    "validation"
+  ],
+  "author": "Dom Harrington <dom@harrington-mail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/domharrington/validity-validate-if-set/issues"
+  },
+  "homepage": "https://github.com/domharrington/validity-validate-if-set",
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "jshint": "~2.3.0",
+    "validity": "0.0.3"
+  }
+}

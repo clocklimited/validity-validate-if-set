@@ -1,6 +1,6 @@
 {
   "name": "@clocklimited/validity-validate-if-set",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Validity validator which calls a subsequent validator if a value is truthy",
   "main": "validator.js",
   "publishConfig": {

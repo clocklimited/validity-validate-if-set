@@ -1,10 +1,10 @@
 {
-  "name": "validity-validate-if-set",
+  "name": "@clocklimited/validity-validate-if-set",
   "version": "0.0.0",
   "description": "Validity validator which calls a subsequent validator if a value is truthy",
   "main": "validator.js",
   "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "lint": "./node_modules/.bin/jshint .",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:domharrington/validity-validate-if-set.git"
+    "url": "git@github.com:clocklimited/validity-validate-if-set.git"
   },
   "keywords": [
     "validity",
@@ -25,12 +25,12 @@
   "author": "Dom Harrington <dom@harrington-mail.com>",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/domharrington/validity-validate-if-set/issues"
+    "url": "https://github.com/clocklimited/validity-validate-if-set/issues"
   },
-  "homepage": "https://github.com/domharrington/validity-validate-if-set",
+  "homepage": "https://github.com/clocklimited/validity-validate-if-set",
   "devDependencies": {
     "mocha": "~1.14.0",
     "jshint": "~2.3.0",
-    "validity": "0.0.3"
+    "@clocklimited/validity": "^1.1.3"
   }
 }
